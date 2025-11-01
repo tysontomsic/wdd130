@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 1.5rem
+}
+main {
+    width: 400px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 10px;
+    text-align: center;
+}
+
+h2 {
+    border-bottom: 1px solid #222222;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 30px #333333;
+}
+
+section {
+    margin: 20px 0;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 10px;
+    background-color: #dddddd;
+    font-size: .9rem;
+}
+
+section p {
+    margin: 10px;
+}
+
+ul {
+    margin: 10px 20px 0;
+}
+
+footer {
+    font-size: .9rem;
+}
