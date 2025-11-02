@@ -34,3 +34,25 @@ footer {
   border-top: 1px solid #000;
   text-align: center;
 }
+
+nav {
+  background-color: #fff;
+  padding: 0px;
+}
+
+nav a {
+  color: #333;
+  padding: 5rem;
+}
+
+h1 {
+  color: #000;
+}
+
+main img {
+  width: 15rem; 
+  height: auto;
+  border: 2px solid rgb(0 0 0 / 0.2); /* 1️⃣ */;
+  padding: 0px;
+  box-shadow: 0 0 30px #999;
+}
