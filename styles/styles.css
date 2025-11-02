@@ -42,8 +42,8 @@ nav {
 
 nav a {
   color: #333;
-  padding: 5rem;
-  display: contents;
+  padding: 1rem;
+  display: block;
 }
 
 h1 {
