@@ -43,6 +43,7 @@ nav {
 nav a {
   color: #333;
   padding: 5rem;
+  display: contents;
 }
 
 h1 {
