@@ -1,6 +1,6 @@
 
 :root {
-  --primary-color: #21c64a;
+  --primary-color: #6df78f;
   --secondary-color: #d1741e;
   --accent1-color: #034918;
   --accent2-color: rgba(190, 111, 0, 0.725);
@@ -78,3 +78,35 @@ article {
   width: 125px;
 }
 
+header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+
+}
+
+.logo img {
+  max-width: 100%; 
+  height: auto;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;    
+}
+
+.navigation a {
+    display: grid;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 1000;
+  border-bottom: 2px solid #000;
+}
+
+.box {
+  padding: 1.5rem;
+  background-color: var(--primary-color);
+}
