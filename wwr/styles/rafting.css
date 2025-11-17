@@ -143,3 +143,12 @@ display: grid;
 section h2 {
   text-align: center;
 }
+
+footer {
+    display: flex;
+    justify-content: right;
+}
+
+footer p {
+  text-align: center;
+}
