@@ -82,7 +82,6 @@ header {
     display: grid;
     grid-template-columns: 1fr auto;
     align-items: center;
-
 }
 
 .logo img {
@@ -109,4 +108,38 @@ nav ul {
 .box {
   padding: 1.5rem;
   background-color: var(--primary-color);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: start;
+  gap: 10px;  
+}
+
+.grid h2 {
+  grid-column: span 3;
+  text-align: center;
+}
+
+.grid img {
+    width: 100%;  
+    height: auto;  
+}
+
+.adventure-images {
+display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: start;
+  gap: 10px;  
+  margin-top: 10px;
+}
+
+.adventure-images img {
+    width: 100%;  
+    height: auto;  
+}
+
+section h2 {
+  text-align: center;
 }
