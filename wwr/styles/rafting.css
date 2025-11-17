@@ -1,7 +1,7 @@
 
 :root {
   --primary-color: #6df78f;
-  --secondary-color: #d1741e;
+  --secondary-color: #349156;
   --accent1-color: #034918;
   --accent2-color: rgba(190, 111, 0, 0.725);
   --heading-font: "Times New Roman", "Georgia", serif;
@@ -63,7 +63,7 @@ h1 {
   color: #ffffff;
 }
 
-article {
+.hero article {
   position: absolute;
   width: 100%;
   padding: 10px;
@@ -98,7 +98,6 @@ nav ul {
     display: grid;
     padding: 20px;
     text-decoration: none;
-    font-size: 1.2rem;
   color: #000;
   font-size: 1.5rem;
   font-weight: 1000;
@@ -107,7 +106,7 @@ nav ul {
 
 .box {
   padding: 1.5rem;
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
 }
 
 .grid {
@@ -138,6 +137,10 @@ display: grid;
 .adventure-images img {
     width: 100%;  
     height: auto;  
+}
+
+.adventure-images h2 {
+  grid-column: span 5;
 }
 
 section h2 {
