@@ -214,3 +214,27 @@ justify-content: center;
   max-width: 840px;
   grid-template-columns: 1fr 1fr;
 }
+
+.contact-form p {
+    margin: 2px;
+  padding: 2px;
+}
+
+.contact-form div {
+  padding: 10px;
+}
+
+.purpose-group {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+}
+
+.purpose-options label {
+    display: block; 
+    margin-bottom: 6px;
+}
+
+.contact-form input {
+  padding: 8px 12px;
+}
