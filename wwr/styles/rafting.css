@@ -238,3 +238,24 @@ justify-content: center;
 .contact-form input {
   padding: 8px 12px;
 }
+
+button {
+ border-color: #6df78f;
+ margin: 0.5rem;
+ font-size: 1rem;
+ font-weight: 550;
+ background-color: #034918;
+ width: 200px;
+ height: 2rem;
+}
+
+label input[type="text"] {
+    margin-left: 100px; 
+}
+
+label textarea {
+    display: block;
+    margin-top: 5px;
+    width: 250px;
+    height: 50px;
+}
