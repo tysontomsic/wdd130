@@ -231,6 +231,7 @@ button {
  font-weight: 550;
  background-color: var(--primary-color);
  width: 100%;
+ padding: 5px;
 }
 
 .contact-form input[type="text"],
