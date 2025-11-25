@@ -196,52 +196,33 @@ justify-content: center;
   text-align: center;
 }
 
+.contact-grid {
+  margin: 0 auto;
+  display: grid;
+   gap: 20px;
+  max-width: 800px;
+  grid-template-columns: 1fr 1fr;
+}
+
 .map {
   grid-column: 1/2;
-  grid-row: 1/2;
   width: 100%;
   height: 100%;
 padding: 5px;
 }
 
+.contact-form table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
 .contact-form {
     grid-column: 2/3;
-    grid-row: 1/2;
 }
 
-.contact-grid {
-  margin: 0 auto;
-  display: grid;
-  max-width: 800px;
-  grid-template-columns: 1fr 1fr;
-}
-
-.contact-form p {
-    margin: 2px;
-  padding: 2px;
-}
-
-.contact-form div {
-  padding: 5px;
-}
-
-.purpose-group {
-    display: flex;
-    align-items: center;
-    gap: 20px; 
-}
-
-.purpose-group p {
-  text-align: left;
-}
-
-.purpose-options label {
-    display: block; 
-    margin-bottom: 6px;
-}
-
-.contact-form input {
-  padding: 8px 12px;
+.contact-form td {
+    padding: 8px;
+    vertical-align: top;
 }
 
 button {
@@ -254,17 +235,11 @@ button {
  height: 2rem;
 }
 
-label input[type="text"] {
-    margin-left: 70px; 
-    width: 60%;
-    
-}
-
-label textarea {
-    display: block;
-    margin-top: 5px;
+.contact-form input[type="text"],
+.contact-form textarea {
     width: 100%;
-    height: 50px;
+    padding: 6px;
+    box-sizing: border-box;
 }
 
 
