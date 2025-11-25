@@ -226,13 +226,11 @@ padding: 5px;
 }
 
 button {
- border-color: #6df78f;
- margin: 1rem;
+ border-color: var(--accent1-color);
  font-size: 1rem;
  font-weight: 550;
- background-color: #034918;
+ background-color: var(--primary-color);
  width: 100%;
- height: 2rem;
 }
 
 .contact-form input[type="text"],
