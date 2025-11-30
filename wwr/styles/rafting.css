@@ -260,21 +260,21 @@ button {
     font-weight: 550;
 }
 
-.index-cta {
-    margin: auto; 
+.cta {
+    margin: 10px auto; 
     text-align: center;
     background-color: var(--accent2-color);
      max-width: 500px;
      padding: 25px;
 }
 
-.index-cta h1 {
+.cta h1 {
   padding-bottom: 10px;
   margin-bottom: 10px;
      border-bottom: 2px solid #000;
 }
 
-.index-cta a {
+.cta a {
    color: #000;
    font-weight: 550;
 }
@@ -298,4 +298,49 @@ button {
 
 .grid-item p {
   border: 2px solid #000;
+}
+
+.trip-desc {
+  display: flex;
+  justify-content: center; 
+  gap: 20px;
+  padding: 20px;
+  background-color: var(--primary-color);
+  max-width: 1000px;
+  width: 100%;  
+  margin: auto;
+}
+
+.trip-desc div {
+   background-color: var(--secondary-color);
+}
+
+.trip-desc p {
+  font-weight: 700;
+  border-bottom: 2px solid #000;
+}
+
+.trips-table {
+    width: 100%;
+    border-collapse: collapse;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.trips-table td, .trips-table th {
+    padding: 8px;
+    vertical-align: top;
+    padding: 10px;
+}
+
+.trips-table td, .trips-table {
+  border: 3px solid var(--accent1-color);
+}
+
+.trips-table th {
+  background-color: var(--secondary-color);
+}
+
+.trips-table td {
+  background-color: var(--primary-color);
 }
